@@ -4,11 +4,11 @@ Static academic website prepared for GitHub Pages. The homepage and three semina
 
 ## Publish with GitHub Pages
 
-1. Sign in to the GitHub account `DavidClarence`.
-2. Create the public repository `DavidClarence.github.io` if it does not already exist.
+1. Sign in to the GitHub account `hpeng3538`.
+2. Create the public repository `hpeng3538.github.io` if it does not already exist.
 3. Upload the contents of this folder to the repository root; `index.html` must be at the root, not inside another folder. Upload the individual files, not the website ZIP.
 4. In **Settings → Pages**, choose **Deploy from a branch**, then select **main** and **/ (root)** and save.
-5. Wait for the Pages deployment to succeed. The intended address is https://davidclarence.github.io/.
+5. Wait for the Pages deployment to succeed. The intended address is https://hpeng3538.github.io/.
 
 No build command, package installation, API key, or custom GitHub Actions workflow is needed. `.nojekyll` marks the files as a plain static site.
 
