@@ -20,13 +20,14 @@ GitHub documentation: https://docs.github.com/en/pages/getting-started-with-gith
 - `styles.css`: shared layout, typography, colors, responsive styles, and print styles.
 - `AIPF-seminar.html`, `LLC-seminar.html`, `learning-seminar.html`: seminar pages.
 - `park.jpeg`: the current owner-provided portrait, displayed with a 4:5 CSS crop. `manhattan.jpg` is the earlier photograph, retained as an unused asset.
+- `Hao_Peng_CV.pdf`: the owner-provided CV, linked beside the email address on the homepage. Replace this file with the same filename to update the CV.
 - PDF and ZIP files: the linked research and seminar materials. Keep filenames unchanged when updating links.
 
 The original page's Fathom analytics configuration (`CHXLIJWJ`) is retained. The homepage was updated in September 2026 with the owner’s MIT graduation in June 2026 and Princeton Mathematics Instructor appointment starting in September 2026. Minor spelling corrections, semantic page structure, navigation, and responsive layout were applied.
 
 The interests paragraph marked for hiding in the owner’s browser editor is preserved as an HTML comment in `index.html`.
 
-The original CV was not linked on the supplied homepage and has not been added to this site.
+The contact email is `hao.peng@princeton.edu`. The CV supplied by the owner in September 2026 is included without content changes.
 
 ## Preview locally
 

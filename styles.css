@@ -31,8 +31,9 @@ h1 { font: 400 clamp(3.3rem, 6vw, 5rem)/1.12 Georgia, "Times New Roman", serif; 
 .research-field { font: 400 1.65rem/1.4 Georgia, "Times New Roman", serif; color: var(--ink); margin: 0 0 28px; }
 .about-copy p { margin: 0 0 17px; }
 .about-copy p:last-child { margin-bottom: 0; }
-.contact { border-top: 1px solid var(--rule); padding-top: 19px; margin: 26px 0 0; font-size: .875rem; overflow-wrap: anywhere; }
-.contact > span { font-weight: 650; color: var(--ink); margin-right: 14px; }
+.contact { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px 28px; border-top: 1px solid var(--rule); padding-top: 19px; margin: 26px 0 0; font-size: .875rem; overflow-wrap: anywhere; }
+.contact-label { font-weight: 650; color: var(--ink); margin-right: 14px; }
+.cv-link { white-space: nowrap; }
 .portrait { margin: 39px 0 0; }
 .portrait img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 40%; border-radius: 2px; }
 .portrait figcaption { margin-top: 13px; font-size: .8125rem; color: var(--muted); letter-spacing: .035em; }
@@ -120,4 +121,3 @@ tr:last-child > * { border-bottom: 0; }
   a { color: inherit; }
   li { break-inside: avoid; }
 }
-
