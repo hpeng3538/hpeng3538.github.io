@@ -34,7 +34,7 @@ h1 { font: 400 clamp(3.3rem, 6vw, 5rem)/1.12 Georgia, "Times New Roman", serif; 
 .contact { border-top: 1px solid var(--rule); padding-top: 19px; margin: 26px 0 0; font-size: .875rem; overflow-wrap: anywhere; }
 .contact > span { font-weight: 650; color: var(--ink); margin-right: 14px; }
 .portrait { margin: 39px 0 0; }
-.portrait img { display: block; width: 100%; height: auto; border-radius: 2px; }
+.portrait img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 40%; border-radius: 2px; }
 .portrait figcaption { margin-top: 13px; font-size: .8125rem; color: var(--muted); letter-spacing: .035em; }
 .content-layout { display: grid; grid-template-columns: 175px minmax(0, 1fr); gap: 64px; border-top: 1px solid var(--ink); padding-top: 40px; }
 .contents nav { position: sticky; top: 32px; display: flex; flex-direction: column; align-items: start; padding-top: 3px; }
@@ -120,3 +120,4 @@ tr:last-child > * { border-bottom: 0; }
   a { color: inherit; }
   li { break-inside: avoid; }
 }
+
